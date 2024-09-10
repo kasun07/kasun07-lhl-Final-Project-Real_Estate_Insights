@@ -1,8 +1,6 @@
 <a id="readme-top"></a>
 
 ## Project Goal
-# Final-Project-Real_Estate_Insights
-Final project of the data analytics program of LightHouse Labs. This will be included data analytics, cleaning and visualizations. For the project there will be used Python, SQL and Tablaeu
 The goal of this project is to understand SQL fundamentals, the exploratory data analysis (EDA) process in Python using various libraries, and the functionality of Tableau for converting datasets into meaningful visualizations that help inform business decisions.
 
 We explored several datasets and selected one that best suited answering key business questions. This process helped in understanding dataset behavior, structure, and data types. I chose the Real Estate dataset for this project.

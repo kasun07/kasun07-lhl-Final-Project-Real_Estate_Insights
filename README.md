@@ -73,8 +73,6 @@ Step 11 - Make necessary changes and create the final version of the dataset –
 
 Step 12 - Data Visualization
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Assumptions & Decisions 
 
 1. Decided to move forward with the houses and apartments. Excluded - invesmemts, plots and other types
@@ -87,7 +85,7 @@ Step 12 - Data Visualization
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Results
-### Create following visualizations – 
+### Visualizations – 
 1.	Number of residences - it gives how many houes and apartments in selected location/s
 2.	Average prices based on the locations - optiont to select the location/s and type of the residence (house or apartment) and graph will give you the average price
 3.	Price variation based on the bedrooms, bathrooms and total area - option to select the location/s, you see the how price vary with the number of bedrooms, bathrooms and total area
@@ -99,85 +97,12 @@ Step 12 - Data Visualization
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-I.	Total - Terrorism and Conflict:
-
-        Terrorism (deaths)
-        Deaths - Conflict and terrorism
-II.	Total - Infectious Diseases:
-
-        Deaths - Meningitis
-        Deaths - Malaria
-        Deaths - HIV/AIDS
-        Deaths - Tuberculosis
-        Deaths - Lower respiratory infections
-        Deaths - Neonatal disorders
-        Deaths - Diarrheal diseases
-        Deaths - Acute hepatitis
-III.	Total - Non-Communicable Diseases (NCDs)
-
-        Deaths - Neoplasms
-        Deaths - Diabetes mellitus
-        Deaths - Cardiovascular diseases
-        Deaths - Chronic kidney disease
-        Deaths - Chronic respiratory diseases
-        Deaths - Cirrhosis and other chronic liver diseases
-        Deaths - Digestive diseases
-        Deaths - Alzheimer's disease and other dementias
-        Deaths - Parkinson's disease
-IV.	Total - External Causes (Accidents, Injuries, and Violence):
-
-        Deaths - Fire, heat, and hot substances
-        Deaths - Drowning
-        Deaths - Interpersonal violence
-        Deaths - Road injuries
-        Deaths - Poisonings
-        Deaths - Self-harm
-        Deaths - Exposure to forces of nature
-        Deaths - Environmental heat and cold exposure
-V.	Total - Substance Use Disorders:
-
-        Deaths - Alcohol use disorders
-        Deaths - Drug use disorders
-VI.	Total - Nutritional and Maternal Causes:
-
-        Deaths - Maternal disorders
-        Deaths - Nutritional deficiencies
-        Deaths - Protein-energy malnutrition
-
-2.	Created a field called ‘Regions’  including continents  - Asia/ Europe/ South America/ North America/ Africa/ Australasia
-3.	Realized in the dataset, England/ Wales/ Scotland/ Northern Ireland are not considered as countries (they don’t have a Code). Instead of having separately those countries, dataset has ‘United Kingdom’ – combining values from each country. 
-4.	Created a field called ‘Countries’ including only countries. (Excluding regions and more than one country combinations)
-
-### Questions:
-1.	What is the leading cause of death across all countries?
-2.	What is the leading cause of death in each country?
-3.	What is the leading cause of death in each continent?
-4.	What are the top 3 countries that have most number of deaths throughout the years?
-5.	If you consider causes of death for the entire world as a distribution (normalized to percentage) then are there countries that have statistically significantly different distributions?
-6.	Are there any correlations between causes?
-7.	Are there any interesting time trends across years?
-8.	Which year has most number of deaths?
-9.	Which cause that has the highest increment of deaths from 1990 to 2019? 
-
-### Visualization
-
-1. 	World distribution of deaths - map
-3.	Deaths by terrorism in countries – bar chart 
-4.	Total # of deaths by continent – bar chart
-5.	Total # of deaths in each continent filtered by the year – line chart
-6.	Total # of deaths by country by each cause – packed bubble
-7.	Total # of deaths by year – line chart
-8.	Total # of deaths for each country – line chart
-9.	Total # of deaths for each country – Treemap
-10.	World and each country distribution of deaths
-11.	Dashboard - Death Causes in Countries and Continents 1990 - 2019
-
-
 ## Challenges 
 #### 01.	Data Cleaning and Preparation:
 
-Handling missing or inconsistent data, such as mixed-up country names or null values in the dataset.
-Standardizing the Entity column which contained a mix of countries, continents, and other regions.
+Handling missing or inconsistent data, such as mixed-up few columns and null values in the dataset.
+Standardizing the id column which contained a mix of strings, null values.
+With large number of data analysing data is difficult. Can't come up with accurate results because there are lots of unusal values.
 
 #### 02.	Feature Selection:
 
@@ -199,12 +124,4 @@ Managing performance issues due to the size of the dataset, especially when crea
 Iterating on the dashboard design to ensure it was user-friendly, informative, and answered the key questions identified during the analysis.
 Deciding on which visualizations to include and how to layout the dashboard effectively.
 
-
-## Future Goals
-01. Include more granular country-level data or specific regions that were excluded or simplified in the initial analysis.
-
-02. Study the impact of socio-economic factors or healthcare policies on death rates across different regions.
-
-03. Explore the relationship between the number of deaths and population size in each country to gain insights into mortality rates and adjust for population disparities. This analysis could help uncover patterns such as countries with disproportionately high or low death rates relative to their population.
-
-04. Expand the time-based analysis by breaking down the data into more granular periods, such as quarterly trends, to identify short-term fluctuations in death rates. Additionally, enhance the geographic analysis by incorporating state or regional data within each country, enabling a more localized understanding of mortality trends.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

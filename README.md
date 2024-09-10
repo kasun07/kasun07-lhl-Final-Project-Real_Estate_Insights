@@ -96,6 +96,7 @@ Step 12 - Data Visualization
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Challenges 
+### Technical Challengers
 #### 01.	Data Cleaning and Preparation:
 
 Handling missing or inconsistent data, such as mixed-up few columns and null values in the dataset.
@@ -121,5 +122,12 @@ Managing performance issues due to the size of the dataset, especially when crea
 
 Iterating on the dashboard design to ensure it was user-friendly, informative, and answered the key questions identified during the analysis.
 Deciding on which visualizations to include and how to layout the dashboard effectively.
+
+### Personal Challenges
+
+1. Understanding dataset. Without having correct domain knowledge of the dataset it’s difficult to come up with solution and make decisions.
+2. Difficult to understand some coulms and values. Providing more details would be helpful.
+3. Technical Barriers - Some technical concepts are unfamiliar, and new techniques are frequently introduced.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
